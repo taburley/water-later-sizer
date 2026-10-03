@@ -1,0 +1,92 @@
+[
+ {
+  "section": "Intro",
+  "narration": "This is the N and C Manning Hydraulic Design Tool. It sizes, analyzes and verifies gravity pipes, culverts, ditches and open channels with Manning's equation, in US customary or S I units, and it shows every step so you can reproduce the result by hand.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/01-intro.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Read this first",
+  "narration": "First, the banner. This is a beta design aid. It assists your judgment, it does not replace it. Confirm n, the governing standard and the design flows, and every result is reviewed by a New York licensed P E before use.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/02-beta.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Pick the unknown",
+  "narration": "Pick the section, then pick the unknown with the solve for this link beside any field. Discharge, size, normal depth, slope or Manning n. The field you are solving turns blue and the page fills in the rest live. Here we solve the depth, and the previous answer for flow was typed in for you.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/03-unknown.png",
+  "durationSec": 6
+ },
+ {
+  "section": "The result",
+  "narration": "An eight inch pipe at zero point four zero percent, half full, with n of zero point zero one three, carries zero point three eight two c f s at two point one nine feet per second. Below the headline you get every hydraulic element: area, wetted perimeter, hydraulic radius, top width, the full pipe values, the peak capacity, and the Froude number.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/04-result.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Calculation detail",
+  "narration": "Open the calculation detail and you can check the work line by line: the inputs in base units, the equation with its constant, the geometry with the numbers in it, the Manning step, and the velocity. Nothing is a black box.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/05-detail.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Sizing a pipe",
+  "narration": "To size a pipe, solve for the diameter. Half a c f s at zero point four percent, half full, needs eight point eight five inches. The page names the next standard size, ten inches, and tells you how that pipe runs with the same flow and slope: d over D of zero point four one five at two point three three feet per second.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/06-size.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Two depths",
+  "narration": "A round pipe carries its peak flow just below the crown, near d over D of zero point nine four. Between the full pipe flow and that peak, two depths carry the same discharge. The page reports both, the lower one first, so you are not surprised by the second.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/07-two-depths.png",
+  "durationSec": 6
+ },
+ {
+  "section": "No fit",
+  "narration": "Ask for more than the pipe can carry and the solver says so. It reports no open channel depth, gives you the peak capacity, and prints no invented number. A surcharged pipe is pressure flow and needs a hydraulic grade line, not Manning.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/08-no-fit.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Engineering checks",
+  "narration": "Open channels take an optional channel depth. Here a trapezoid runs one and a half feet deep in a one point four foot channel, so the check card says it overtops. The checks inform you; they never block a valid calculation. Low or high velocity, n out of range, steep slope, a pipe near the crown, and near critical flow are all flagged the same way.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/09-checks.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Sanitary sewer checks",
+  "narration": "For a public sanitary sewer, tick the Ten States checkbox. The card applies the twenty fourteen standards: the eight inch minimum, two feet per second flowing full at n of zero point zero one three whatever n you typed, the minimum slope table, and the high velocity and steep slope notes. Shall rows are requirements, should rows are recommendations.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/10-sewer.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Units",
+  "narration": "Switch to S I in the toolbar and every typed value converts so the physical quantity stays the same. Four feet becomes one point two one nine two meters, and the constant becomes one point zero. Each field's own unit menu works the same way, so a slope typed in percent can be read in feet per foot without retyping.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/11-units.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Manning n",
+  "narration": "Manning n has no default. Click a row in the reference table or type a value. The table gives typical values and ranges for pipe, lined, earth and natural channels. They are references, not design values; the n in the calculation is always the one shown in the field, and you confirm it for the material and its condition.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/12-n.png",
+  "durationSec": 7
+ },
+ {
+  "section": "Open channels",
+  "narration": "Rectangles, trapezoids and V ditches use the same page. Here a V ditch with three to one side slopes carries five c f s at one percent, and the solver finds the normal depth by bisection on a verified bracket. The drawing labels the area, wetted perimeter, hydraulic radius, depth and top width.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/13-channel.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Assumptions",
+  "narration": "Read the assumptions once. Steady uniform flow at normal depth. Culvert barrel capacity only, not inlet control or headwater. Open channel flow only, with n constant and the section clean. Nominal pipe sizes are treated as inside diameters. The governing standard for the project controls the design.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/14-assumptions.png",
+  "durationSec": 6
+ },
+ {
+  "section": "Precision and sharing",
+  "narration": "Results show three significant figures, which is the engineering test. Switch to six figures when you are checking the tool independently. Copy report gives you the result and the full calculation as text, copy link carries the inputs in the address, and print lays it out with the detail open.",
+  "imageUrl": "https://raw.githubusercontent.com/taburley/water-later-sizer/claude/sweet-lovelace-f6vn2e/training-assets/sewer-manning-v3/15-share.png",
+  "durationSec": 6
+ }
+]

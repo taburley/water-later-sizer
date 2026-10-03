@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.000 --> 00:03.405
+This is the N and C Gravity Sewer and Channel tool.
+
+00:03.455 --> 00:07.199
+It solves Manning's equation for a round pipe or an open
+
+00:07.249 --> 00:10.248
+channel, and it shows its work on every step.
+
+00:10.648 --> 00:11.843
+First, the banner.
+
+00:11.893 --> 00:13.227
+This tool is a beta.
+
+00:13.277 --> 00:17.448
+It is not for design use, and every result goes to a New York
+
+00:17.498 --> 00:18.347
+licensed P.E.
+
+00:18.397 --> 00:19.108
+for review.
+
+00:19.508 --> 00:20.690
+The rule is simple.
+
+00:20.740 --> 00:24.322
+Of flow, size, slope and depth, leave exactly one blank.
+
+00:24.372 --> 00:25.943
+The page solves that one.
+
+00:25.993 --> 00:29.834
+Here flow is blank, so an eight inch pipe at zero point four
+
+00:29.884 --> 00:33.855
+zero percent, half full, carries zero point three eight c f s.
+
+00:34.255 --> 00:38.097
+Manning's equation sits across the top with today's numbers in
+
+00:38.147 --> 00:38.286
+it.
+
+00:38.336 --> 00:42.052
+One point four eight six over n, times area, times hydraulic
+
+00:42.102 --> 00:45.442
+radius to the two thirds, times slope to the one half.
+
+00:45.492 --> 00:47.702
+The solved term is outlined in blue.
+
+00:47.752 --> 00:49.774
+A term that just changed flashes.
+
+00:50.174 --> 00:53.618
+To solve for something else, click solve for this beside it.
+
+00:53.668 --> 00:56.065
+Here we keep the flow and solve for slope.
+
+00:56.115 --> 00:59.734
+The answer shows right in the blank field, and the other fields
+
+00:59.784 --> 01:00.782
+keep their values.
+
+01:01.182 --> 01:05.135
+The drawing puts area, wetted perimeter and hydraulic radius on
+
+01:05.185 --> 01:05.771
+the shape.
+
+01:05.821 --> 01:08.313
+The orange line is the wetted perimeter.
+
+01:08.363 --> 01:11.363
+The purple bar is R, standing next to the depth.
+
+01:11.413 --> 01:13.269
+Hydraulic radius is not depth.
+
+01:13.319 --> 01:16.701
+In a half full pipe it is one quarter of the diameter.
+
+01:17.101 --> 01:20.727
+For a round pipe, the hydraulic elements chart shows where you
+
+01:20.777 --> 01:20.964
+are.
+
+01:21.014 --> 01:22.861
+Read across at your depth ratio.
+
+01:22.911 --> 01:26.359
+Each curve is the partial value divided by the flowing full
+
+01:26.409 --> 01:26.715
+value.
+
+01:26.765 --> 01:29.324
+Velocity peaks near eighty one percent full.
+
+01:29.374 --> 01:32.051
+Discharge peaks near ninety four percent full.
+
+01:32.451 --> 01:36.002
+Near the top, a pipe can carry the same flow at two depths.
+
+01:36.052 --> 01:39.664
+The page reports both and draws the second as a dashed line.
+
+01:39.714 --> 01:41.434
+Neither one is pressure flow.
+
+01:41.834 --> 01:45.291
+For round pipe, the Ten States twenty fourteen checks run on
+
+01:45.341 --> 01:45.876
+their own.
+
+01:45.926 --> 01:49.325
+Eight inches minimum, and two feet per second flowing full.
+
+01:49.375 --> 01:53.007
+That velocity check always uses n of zero point zero one three,
+
+01:53.057 --> 01:54.937
+even when you type a different n.
+
+01:54.987 --> 01:56.924
+A ditch does not fail these rules.
+
+01:57.324 --> 01:59.564
+Manning n is a material choice.
+
+01:59.614 --> 02:02.593
+Pick one from the list, or type your own.
+
+02:02.643 --> 02:07.247
+Anything smoother than zero point zero one zero gets a warning.
+
+02:07.647 --> 02:08.971
+Watch your slope units.
+
+02:09.021 --> 02:12.676
+Type zero point four with feet per foot selected, and the page
+
+02:12.726 --> 02:15.065
+warns you that is a forty percent grade.
+
+02:15.115 --> 02:18.232
+Switch to percent and the flow drops back to a tenth.
+
+02:18.632 --> 02:22.021
+For a ditch, pick rectangle, trapezoid or triangle.
+
+02:22.071 --> 02:26.202
+Width and depth are in feet, and the Ten States pipe rules are
+
+02:26.252 --> 02:27.011
+not applied.
+
+02:27.411 --> 02:29.689
+Open channels get a rating curve instead:
+
+02:29.739 --> 02:33.096
+depth against flow and velocity, with critical depth marked.
+
+02:33.146 --> 02:36.446
+Froude number and specific energy are shown for information
+
+02:36.496 --> 02:36.730
+only.
+
+02:37.130 --> 02:40.400
+Show the work lists every step with your numbers in it, so a
+
+02:40.450 --> 02:42.502
+reviewer can check the answer by hand.
+
+02:43.130 --> 02:46.810
+When you are done, copy the report, copy a link that reopens
+
+02:46.860 --> 02:49.669
+these exact inputs, or print the page for P.E.
+
+02:49.719 --> 02:50.104
+review.
