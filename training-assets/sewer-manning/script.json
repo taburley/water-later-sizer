@@ -1,0 +1,17 @@
+[
+ ["01-intro","Intro","This is the N and C Gravity Sewer and Channel tool. It solves Manning's equation for a round pipe or an open channel, and it shows its work on every step."],
+ ["02-beta","Read this first","First, the banner. This tool is a beta. It is not for design use, and every result goes to a New York licensed P.E. for review."],
+ ["03-one-blank","One blank","The rule is simple. Of flow, size, slope and depth, leave exactly one blank. The page solves that one. Here flow is blank, so an eight inch pipe at zero point four zero percent, half full, carries zero point three eight c f s."],
+ ["04-equation","The equation","Manning's equation sits across the top with today's numbers in it. One point four eight six over n, times area, times hydraulic radius to the two thirds, times slope to the one half. The solved term is outlined in blue. A term that just changed flashes."],
+ ["05-backsolve","Back-solve","To solve for something else, click solve for this beside it. Here we keep the flow and solve for slope. The answer shows right in the blank field, and the other fields keep their values."],
+ ["06-section","The section","The drawing puts area, wetted perimeter and hydraulic radius on the shape. The orange line is the wetted perimeter. The purple bar is R, standing next to the depth. Hydraulic radius is not depth. In a half full pipe it is one quarter of the diameter."],
+ ["07-chart","Hydraulic elements","For a round pipe, the hydraulic elements chart shows where you are. Read across at your depth ratio. Each curve is the partial value divided by the flowing full value. Velocity peaks near eighty one percent full. Discharge peaks near ninety four percent full."],
+ ["08-two-depths","Two depths","Near the top, a pipe can carry the same flow at two depths. The page reports both and draws the second as a dashed line. Neither one is pressure flow."],
+ ["09-ten-states","Ten States checks","For round pipe, the Ten States twenty fourteen checks run on their own. Eight inches minimum, and two feet per second flowing full. That velocity check always uses n of zero point zero one three, even when you type a different n. A ditch does not fail these rules."],
+ ["10-material","Manning n","Manning n is a material choice. Pick one from the list, or type your own. Anything smoother than zero point zero one zero gets a warning."],
+ ["11-slope-warning","Watch the units","Watch your slope units. Type zero point four with feet per foot selected, and the page warns you that is a forty percent grade. Switch to percent and the flow drops back to a tenth."],
+ ["12-channel","Open channels","For a ditch, pick rectangle, trapezoid or triangle. Width and depth are in feet, and the Ten States pipe rules are not applied."],
+ ["12b-rating","Rating curve","Open channels get a rating curve instead: depth against flow and velocity, with critical depth marked. Froude number and specific energy are shown for information only."],
+ ["13-work","Show the work","Show the work lists every step with your numbers in it, so a reviewer can check the answer by hand."],
+ ["14-share","Share and review","When you are done, copy the report, copy a link that reopens these exact inputs, or print the page for P.E. review."]
+]
