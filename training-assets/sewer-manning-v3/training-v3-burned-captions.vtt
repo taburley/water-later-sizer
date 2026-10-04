@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.000 --> 00:03.013
+This is the N and C Manning Hydraulic Design
+
+00:03.063 --> 00:07.329
+Tool. It sizes, analyzes and verifies gravity pipes, culverts,
+
+00:07.379 --> 00:11.228
+ditches and open channels with Manning's equation, in US
+
+00:11.278 --> 00:14.151
+customary or S I units, and it shows every
+
+00:14.201 --> 00:17.284
+step so you can reproduce the result by hand.
+
+00:17.684 --> 00:20.487
+First, the banner. This is a beta design aid.
+
+00:20.537 --> 00:23.593
+It assists your judgment, it does not replace it.
+
+00:23.643 --> 00:27.080
+Confirm n, the governing standard and the design flows,
+
+00:27.130 --> 00:29.743
+and every result is reviewed by a New York
+
+00:29.793 --> 00:31.264
+licensed P E before use.
+
+00:31.664 --> 00:34.721
+Pick the section, then pick the unknown with the
+
+00:34.771 --> 00:37.116
+solve for this link beside any field.
+
+00:37.166 --> 00:40.353
+Discharge, size, normal depth, slope or Manning n.
+
+00:40.403 --> 00:43.201
+The field you are solving turns blue and the
+
+00:43.251 --> 00:45.013
+page fills in the rest live.
+
+00:45.063 --> 00:48.120
+Here we solve the depth, and the previous answer
+
+00:48.170 --> 00:50.062
+for flow was typed in for you.
+
+00:50.462 --> 00:53.100
+An eight inch pipe at zero point four zero
+
+00:53.150 --> 00:55.979
+percent, half full, with n of zero point zero
+
+00:56.029 --> 00:58.987
+one three, carries zero point three eight two c
+
+00:59.037 --> 01:01.163
+f s at two point one nine feet per
+
+01:01.213 --> 01:04.938
+second. Below the headline you get every hydraulic element:
+
+01:04.988 --> 01:08.841
+area, wetted perimeter, hydraulic radius, top width, the full
+
+01:08.891 --> 01:12.297
+pipe values, the peak capacity, and the Froude number.
+
+01:12.697 --> 01:15.673
+Open the calculation detail and you can check the
+
+01:15.723 --> 01:18.390
+work line by line: the inputs in base units,
+
+01:18.440 --> 01:21.664
+the equation with its constant, the geometry with the
+
+01:21.714 --> 01:24.752
+numbers in it, the Manning step, and the velocity.
+
+01:24.802 --> 01:26.172
+Nothing is a black box.
+
+01:26.572 --> 01:29.198
+To size a pipe, solve for the diameter.
+
+01:29.248 --> 01:31.326
+Half a c f s at zero point four
+
+01:31.376 --> 01:35.169
+percent, half full, needs eight point eight five inches.
+
+01:35.219 --> 01:38.600
+The page names the next standard size, ten inches,
+
+01:38.650 --> 01:41.414
+and tells you how that pipe runs with the
+
+01:41.464 --> 01:43.953
+same flow and slope: d over D of zero
+
+01:44.003 --> 01:46.973
+point four one five at two point three three
+
+01:47.023 --> 01:48.071
+feet per second.
+
+01:48.471 --> 01:50.994
+A round pipe carries its peak flow just below
+
+01:51.044 --> 01:53.167
+the crown, near d over D of zero point
+
+01:53.217 --> 01:55.797
+nine four. Between the full pipe flow and that
+
+01:55.847 --> 01:58.198
+peak, two depths carry the same discharge.
+
+01:58.248 --> 02:00.829
+The page reports both, the lower one first, so
+
+02:00.879 --> 02:02.887
+you are not surprised by the second.
+
+02:03.287 --> 02:05.637
+Ask for more than the pipe can carry and
+
+02:05.687 --> 02:08.397
+the solver says so. It reports no open channel
+
+02:08.447 --> 02:11.338
+depth, gives you the peak capacity, and prints no
+
+02:11.388 --> 02:14.638
+invented number. A surcharged pipe is pressure flow and
+
+02:14.688 --> 02:17.158
+needs a hydraulic grade line, not Manning.
+
+02:17.558 --> 02:20.356
+Open channels take an optional channel depth.
+
+02:20.406 --> 02:22.951
+Here a trapezoid runs one and a half feet
+
+02:23.001 --> 02:25.546
+deep in a one point four foot channel, so
+
+02:25.596 --> 02:27.572
+the check card says it overtops.
+
+02:27.622 --> 02:30.547
+The checks inform you; they never block a valid
+
+02:30.597 --> 02:33.711
+calculation. Low or high velocity, n out of range,
+
+02:33.761 --> 02:36.496
+steep slope, a pipe near the crown, and near
+
+02:36.546 --> 02:39.218
+critical flow are all flagged the same way.
+
+02:39.618 --> 02:42.505
+For a public sanitary sewer, tick the Ten States
+
+02:42.555 --> 02:45.992
+checkbox. The card applies the twenty fourteen standards:
+
+02:46.042 --> 02:49.112
+the eight inch minimum, two feet per second flowing
+
+02:49.162 --> 02:51.437
+full at n of zero point zero one three
+
+02:51.487 --> 02:54.496
+whatever n you typed, the minimum slope table, and
+
+02:54.546 --> 02:56.943
+the high velocity and steep slope notes.
+
+02:56.993 --> 03:00.675
+Shall rows are requirements, should rows are recommendations.
+
+03:01.075 --> 03:03.508
+Switch to S I in the toolbar and every
+
+03:03.558 --> 03:07.103
+typed value converts so the physical quantity stays the
+
+03:07.153 --> 03:10.109
+same. Four feet becomes one point two one nine
+
+03:10.159 --> 03:13.507
+two meters, and the constant becomes one point zero.
+
+03:13.557 --> 03:16.513
+Each field's own unit menu works the same way,
+
+03:16.563 --> 03:19.062
+so a slope typed in percent can be read
+
+03:19.112 --> 03:21.284
+in feet per foot without retyping.
+
+03:21.684 --> 03:23.227
+Manning n has no default.
+
+03:23.277 --> 03:25.904
+Click a row in the reference table or type
+
+03:25.954 --> 03:29.090
+a value. The table gives typical values and ranges
+
+03:29.140 --> 03:31.894
+for pipe, lined, earth and natural channels.
+
+03:31.944 --> 03:34.379
+They are references, not design values;
+
+03:34.429 --> 03:37.056
+the n in the calculation is always the one
+
+03:37.106 --> 03:39.732
+shown in the field, and you confirm it for
+
+03:39.782 --> 03:41.708
+the material and its condition.
+
+03:42.108 --> 03:45.779
+Rectangles, trapezoids and V ditches use the same page.
+
+03:45.829 --> 03:48.283
+Here a V ditch with three to one side
+
+03:48.333 --> 03:51.057
+slopes carries five c f s at one percent,
+
+03:51.107 --> 03:54.440
+and the solver finds the normal depth by bisection
+
+03:54.490 --> 03:57.890
+on a verified bracket. The drawing labels the area,
+
+03:57.940 --> 04:01.679
+wetted perimeter, hydraulic radius, depth and top width.
+
+04:02.079 --> 04:05.553
+Read the assumptions once. Steady uniform flow at normal
+
+04:05.603 --> 04:09.140
+depth. Culvert barrel capacity only, not inlet control or
+
+04:09.190 --> 04:12.539
+headwater. Open channel flow only, with n constant and
+
+04:12.589 --> 04:15.811
+the section clean. Nominal pipe sizes are treated as
+
+04:15.861 --> 04:19.902
+inside diameters. The governing standard for the project controls
+
+04:19.952 --> 04:20.594
+the design.
+
+04:20.994 --> 04:24.906
+Results show three significant figures, which is the engineering
+
+04:24.956 --> 04:27.939
+test. Switch to six figures when you are checking
+
+04:27.989 --> 04:31.406
+the tool independently. Copy report gives you the result
+
+04:31.456 --> 04:34.563
+and the full calculation as text, copy link carries
+
+04:34.613 --> 04:37.287
+the inputs in the address, and print lays it
+
+04:37.337 --> 04:38.835
+out with the detail open.
